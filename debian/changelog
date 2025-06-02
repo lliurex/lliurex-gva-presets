@@ -1,3 +1,9 @@
+lliurex-gva-presets (0.1.1) jammy; urgency=medium
+
+  * Add version dependency with llx-guest
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 02 Jun 2025 19:12:19 +0200
+
 lliurex-gva-presets (0.1) jammy; urgency=medium
 
   * Initial Release.
