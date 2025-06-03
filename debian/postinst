@@ -21,7 +21,8 @@ set -e
 case "$1" in
     configure)
 	    cdccli -e
-	    llx-guest-manager enable
+	    cp /usr/share/lliurex-gva-presets/n4d-oneshots/lliurex-gva-presets_guest-user-enable.sh /var/lib/n4d/oneshot/
+	    systemctl restart n4d || true
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
