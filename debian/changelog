@@ -1,3 +1,9 @@
+lliurex-gva-presets (0.1.2) jammy; urgency=medium
+
+  * llx-guest to oneshot 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 03 Jun 2025 12:04:40 +0200
+
 lliurex-gva-presets (0.1.1) jammy; urgency=medium
 
   * Add version dependency with llx-guest
