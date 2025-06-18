@@ -1,3 +1,9 @@
+lliurex-gva-presets (0.2.1) jammy; urgency=medium
+
+  * Fix syntax on postinst
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 18 Jun 2025 14:16:45 +0200
+
 lliurex-gva-presets (0.2) jammy; urgency=medium
 
   * Install chromium by epic
