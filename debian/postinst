@@ -25,7 +25,7 @@ case "$1" in
 	    systemctl restart n4d || true
 	    status_package="$(epic showinfo chromium.epi | grep -i status | awk '{print $3}')"
 	    if [ "${status_package}" != "installed" ]; then
-		    epic install -u chromium.epi
+		    epic -u -nc install chromium.epi
 	    fi
     ;;
 
