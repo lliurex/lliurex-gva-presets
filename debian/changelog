@@ -1,3 +1,9 @@
+lliurex-gva-presets (0.2) jammy; urgency=medium
+
+  * Install chromium by epic
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 18 Jun 2025 14:03:07 +0200
+
 lliurex-gva-presets (0.1.2) jammy; urgency=medium
 
   * llx-guest to oneshot 
