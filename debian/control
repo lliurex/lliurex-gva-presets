@@ -11,6 +11,6 @@ Rules-Requires-Root: no
 
 Package: lliurex-gva-presets
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, cdc, llx-guest (>=0.42), zero-lliurex-chromium
+Depends: ${shlibs:Depends}, ${misc:Depends}, cdc, llx-guest (>=0.42)
 Description: System configurations according to the needs of the GVA
  Enable CDC and guest user
