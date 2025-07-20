@@ -23,10 +23,6 @@ case "$1" in
 	    cdccli -e
 	    cp /usr/share/lliurex-gva-presets/n4d-oneshots/lliurex-gva-presets_guest-user-enable.sh /var/lib/n4d/oneshot/
 	    systemctl restart n4d || true
-	    status_package="$(epic showinfo chromium.epi | grep -i status | awk '{print $3}')"
-	    if [ "${status_package}" != "installed" ]; then
-		    epic -u -nc install chromium.epi
-	    fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
