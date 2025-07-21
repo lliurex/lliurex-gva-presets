@@ -1,0 +1,20 @@
+#!/bin/sh
+
+add_disabled_user(){
+	NEW_USER="$1"
+	# check if user exists
+	if ! getent passwd "$NEW_USER" >/dev/null ; then
+		# create user
+		adduser --quiet --disabled-password --shell /bin/bash --home /home/$NEW_USER --gecos "$NEW_USER" $NEW_USER
+		# set passwd
+		echo "$NEW_USER:$NEW_USER" |chpasswd 2>/dev/null
+
+		# disable access
+		passwd -l "$NEW_USER" >/dev/null 2>/dev/null
+	fi
+}
+
+
+add_disabled_user "estudiant"
+
+
