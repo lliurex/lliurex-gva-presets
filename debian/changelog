@@ -1,3 +1,9 @@
+lliurex-gva-presets (0.2.7) noble; urgency=medium
+
+  *  Migrate to noble
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 23 Jul 2025 12:46:05 +0200
+
 lliurex-gva-presets (0.2.6) jammy; urgency=medium
 
   * Create estudiant user
