@@ -1,3 +1,9 @@
+lliurex-gva-presets (0.2.8) noble; urgency=medium
+
+  * Testing enable wifi_edu
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 08 Oct 2025 16:13:18 +0200
+
 lliurex-gva-presets (0.2.7) noble; urgency=medium
 
   *  Migrate to noble
