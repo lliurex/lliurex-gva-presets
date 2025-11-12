@@ -1,3 +1,9 @@
+lliurex-gva-presets (0.2.8) jammy; urgency=medium
+
+  * Add dependency with version
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 12 Nov 2025 11:52:02 +0100
+
 lliurex-gva-presets (0.2.7) jammy; urgency=medium
 
   * Enable wifi by default
