@@ -24,6 +24,7 @@ case "$1" in
 	    cp /usr/share/lliurex-gva-presets/n4d-oneshots/lliurex-gva-presets_guest-user-enable.sh /var/lib/n4d/oneshot/
 	    systemctl restart n4d || true
 	    /usr/share/lliurex-gva-presets/create-estudiant-user
+	    /usr/sbin/lliurex-wifi-gva-control-cli -u enablewifi WIFI_EDU
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
